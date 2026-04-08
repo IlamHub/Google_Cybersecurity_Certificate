@@ -32,7 +32,7 @@ This repository contains my **hands on labs, exercises, and notes** from **Cours
 ## Portfolio and Notes
 - All exercises and labs documented with **screenshots, notes, and examples**  
 - Organized by module for clarity and to track practical skills  
-- Demonstrates hands-on experience with security domains, frameworks, SIEM tools, and incident response  
+- Demonstrates hands on experience with security domains, frameworks, SIEM tools, and incident response  
 
 ## Certificate
 [View Certificate on Coursera](INSERT_YOUR_CERTIFICATE_URL_HERE)

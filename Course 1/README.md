@@ -33,7 +33,7 @@ This repository contains my **hands on labs, exercises, and notes** from **Cours
 ## Portfolio and Notes
 - All exercises and labs documented with **screenshots, code snippets, and notes**  
 - Organized by module for clarity and tracking of practical skills  
-- Demonstrates hands-on experience with security concepts, tools, and ethical practices  
+- Demonstrates hands on experience with security concepts, tools, and ethical practices  
 
 ## Certificate
 [View Certificate on Coursera](https://coursera.org/share/09b5f1c86e4352bd0cf1c00cf48a9797)
