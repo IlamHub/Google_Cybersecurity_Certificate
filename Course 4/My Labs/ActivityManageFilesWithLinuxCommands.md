@@ -1,12 +1,14 @@
 # Lab: Manage Files with Linux Commands
 
 ## Lab Source
+
 This lab is based on the Google Cybersecurity Professional Certificate training materials.
 
 Original lab reference:
 https://www.skills.google/focuses/47125035?parent=lti_session
 
 ## Environment
+
 - OS: Debian-based Linux (Virtual Machine)
 - Shell: Bash
 - User: `analyst`
@@ -16,6 +18,7 @@ https://www.skills.google/focuses/47125035?parent=lti_session
 ## Why This Matters (Cybersecurity Context)
 
 In a real SOC (Security Operations Center) environment:
+
 - Keeping a well-organized directory structure makes it easier to detect anomalies and locate evidence quickly.
 - Creating, moving, and deleting files are routine tasks during log management and incident documentation.
 - Editing files directly in the terminal (without a GUI) is an essential skill when working on remote servers.
@@ -25,6 +28,7 @@ In a real SOC (Security Operations Center) environment:
 ## Directory Structure Overview
 
 ### Before:
+
 ```
 home
 └── analyst
@@ -38,6 +42,7 @@ home
 ```
 
 ### After:
+
 ```
 home
 └── analyst
@@ -61,11 +66,13 @@ mkdir logs
 ```
 
 Verify it was created:
+
 ```bash
 ls
 ```
 
 **Expected Output:**
+
 ```
 logs  notes  reports  temp
 ```
@@ -81,11 +88,13 @@ rmdir temp
 ```
 
 Verify it was removed:
+
 ```bash
 ls
 ```
 
 **Expected Output:**
+
 ```
 logs  notes  reports
 ```
@@ -99,21 +108,25 @@ logs  notes  reports
 Move `Q3patches.txt` from the `notes` directory to the `reports` directory.
 
 ### Navigate to `notes`
+
 ```bash
 cd /home/analyst/notes
 ```
 
 ### Move the File
+
 ```bash
 mv Q3patches.txt /home/analyst/reports/
 ```
 
 ### Verify the Move
+
 ```bash
 ls /home/analyst/reports
 ```
 
 **Expected Output:**
+
 ```
 Q1patches.txt  Q2patches.txt  Q3patches.txt
 ```
@@ -131,11 +144,13 @@ rm tempnotes.txt
 ```
 
 Verify it was removed:
+
 ```bash
 ls
 ```
 
 **Expected Output:**
+
 ```
 (no files listed)
 ```
@@ -151,11 +166,13 @@ touch tasks.txt
 ```
 
 Verify it was created:
+
 ```bash
 ls
 ```
 
 **Expected Output:**
+
 ```
 tasks.txt
 ```
@@ -167,32 +184,38 @@ tasks.txt
 Open `tasks.txt` in the nano text editor and add task notes.
 
 ### Open the File
+
 ```bash
 nano tasks.txt
 ```
 
 ### Add the Following Text
+
 ```
 Completed tasks
 1. Managed file structure in /home/analyst
 ```
 
 ### Save and Exit
+
 1. Press `CTRL+X` to exit
 2. Press `Y` to confirm saving
 3. Press `ENTER` to confirm the filename
 
 ### Clear the Shell
+
 ```bash
 clear
 ```
 
 ### Verify the File Contents
+
 ```bash
 cat tasks.txt
 ```
 
 **Expected Output:**
+
 ```
 Completed tasks
 1. Managed file structure in /home/analyst
