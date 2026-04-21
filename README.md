@@ -63,13 +63,6 @@ This repository contains an overview of all nine courses in the **Google Cyberse
 - Prepare for the cybersecurity job market with tips on **networking and professional engagement**
 - Exercises and portfolio activities completed
 
-### 9. Accelerate Your Job Search with AI
-
-- Gain practical **job search strategies**
-- Leverage **AI tools (e.g., Gemini, NotebookLM)** to identify skills and opportunities
-- Plan and manage **applications, interviews, and career growth**
-- Portfolio reflects practical application of these tools
-
 ---
 
 ## **Portfolio and Certificates**
