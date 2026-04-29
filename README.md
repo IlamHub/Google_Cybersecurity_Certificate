@@ -69,7 +69,7 @@ This repository contains an overview of all nine courses in the **Google Cyberse
 
 - All **hands-on labs, exercises, and activities** documented in this repository as part of my professional portfolio
 - Demonstrates skills in **security domains, frameworks, SIEM tools, Python, Linux, SQL, incident response, and job preparation**
-- Certificates for completed courses will be shown inside the courses subfolders.
+- Certificates for completed courses [https://coursera.org/share/5175b12f7b3d0d43e7f73b7f061ec18f]
 
 ---
 
