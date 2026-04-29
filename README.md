@@ -4,7 +4,7 @@
 
 [![Certificate](https://img.shields.io/badge/Google-Cybersecurity%20Certificate-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://coursera.org/share/5175b12f7b3d0d43e7f73b7f061ec18f)
 [![Coursera](https://img.shields.io/badge/Coursera-Verified-0056D2?style=for-the-badge&logo=coursera&logoColor=white)](https://coursera.org/verify/professional-cert/7U9642K2KYS1)
-[![TryHackMe](https://img.shields.io/badge/TryHackMe-SOC%20Level%201-212C42?style=for-the-badge&logo=tryhackme&logoColor=white)](https://tryhackme.com)
+[![TryHackMe](https://img.shields.io/badge/TryHackMe-SOC%20Level%201-212C42?style=for-the-badge&logo=tryhackme&logoColor=white)](https://tryhackme.com/p/ilam.edu)
 
 ---
 
@@ -89,7 +89,7 @@ All hands-on labs and exercises are organized by course in their respective fold
 
 ## Connect
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Islam%20Ahmed-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/your-profile)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Islam%20Ahmed-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ilam-mtr/)
 [![GitHub](https://img.shields.io/badge/GitHub-IlamHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/IlamHub)
 
 > Currently pursuing **SOC Analyst Tier 1** as a first role, with a long-term path into **Cloud Security on AWS and Azure**.
