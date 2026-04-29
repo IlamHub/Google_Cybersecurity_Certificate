@@ -1,76 +1,95 @@
-# Google Cybersecurity Professional Certificate – Program Overview
+# Google Cybersecurity Professional Certificate
 
-This repository contains an overview of all nine courses in the **Google Cybersecurity Professional Certificate**. It highlights the knowledge, skills, and hands-on experiences I have gained while completing the program. All **labs, exercises, and practical activities** completed during the program are documented here as part of my **professional portfolio**, demonstrating my practical skills in cybersecurity.
+### Completed by Islam Ahmed | April 2026
 
----
-
-## **Program Courses Overview**
-
-### 1. Foundations of Cybersecurity
-
-- Explore the **cybersecurity profession** and its evolution
-- Learn about **significant events** that shaped the field
-- Understand the **importance of cybersecurity in organizations**
-- Gain insight into **entry-level roles and responsibilities**
-- Labs and exercises from this course are documented for portfolio purposes
-
-### 2. Play It Safe: Manage Security Risks
-
-- Identify how cybersecurity professionals use **frameworks and controls** to protect operations
-- Explore **common cybersecurity tools** used by analysts
-- Focus on understanding and mitigating **security risks**
-- Hands-on labs and portfolio activities completed
-
-### 3. Connect and Protect: Networks and Network Security
-
-- Gain an understanding of **network-level vulnerabilities**
-- Learn strategies to **secure networks**
-- Explore practical concepts in **network security monitoring**
-- Labs and exercises recorded in the portfolio
-
-### 4. Tools of the Trade: Linux and SQL
-
-- Develop foundational **computing skills**
-- Communicate with the **Linux operating system** through the command line
-- Learn to **query and manipulate databases using SQL**
-- All exercises documented in the portfolio
-
-### 5. Assets, Threats, and Vulnerabilities
-
-- Learn about **security controls** and risk management
-- Develop a **threat actor mindset** to anticipate and defend against threats
-- Understand how to **protect an organization’s assets** from various vulnerabilities
-- Hands-on activities included in the portfolio
-
-### 6. Sound the Alarm: Detection and Response
-
-- Understand the **incident response lifecycle**
-- Practice using **tools to detect and respond** to cybersecurity incidents
-- Develop skills in **threat analysis and mitigation**
-- Labs documented for portfolio evidence
-
-### 7. Automate Cybersecurity Tasks with Python
-
-- Learn the **Python programming language**
-- Write scripts to **automate cybersecurity tasks**
-- Apply coding skills to real-world security workflows
-- Portfolio includes all Python exercises
-
-### 8. Put It to Work: Prepare for Cybersecurity Jobs
-
-- Learn **incident classification and escalation**
-- Develop effective **communication with stakeholders**
-- Prepare for the cybersecurity job market with tips on **networking and professional engagement**
-- Exercises and portfolio activities completed
+[![Certificate](https://img.shields.io/badge/Google-Cybersecurity%20Certificate-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://coursera.org/share/5175b12f7b3d0d43e7f73b7f061ec18f)
+[![Coursera](https://img.shields.io/badge/Coursera-Verified-0056D2?style=for-the-badge&logo=coursera&logoColor=white)](https://coursera.org/verify/professional-cert/7U9642K2KYS1)
+[![TryHackMe](https://img.shields.io/badge/TryHackMe-SOC%20Level%201-212C42?style=for-the-badge&logo=tryhackme&logoColor=white)](https://tryhackme.com)
 
 ---
 
-## **Portfolio and Certificates**
+## Overview
 
-- All **hands-on labs, exercises, and activities** documented in this repository as part of my professional portfolio
-- Demonstrates skills in **security domains, frameworks, SIEM tools, Python, Linux, SQL, incident response, and job preparation**
-- Certificates for completed courses [https://coursera.org/share/5175b12f7b3d0d43e7f73b7f061ec18f]
+This repository documents all hands-on labs, exercises, and portfolio activities completed throughout the **Google Cybersecurity Professional Certificate** — a 9-course program developed by Google covering the full spectrum of cybersecurity fundamentals and real-world analyst workflows.
+
+> **Verification:** [coursera.org/verify/professional-cert/7U9642K2KYS1](https://coursera.org/verify/professional-cert/7U9642K2KYS1)
 
 ---
 
-This program has provided me with a **strong foundation in cybersecurity** and practical skills to pursue entry-level roles in the field, supported by **hands on portfolio evidence** demonstrating my applied knowledge and technical abilities.
+## Tools & Technologies
+
+![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![Splunk](https://img.shields.io/badge/Splunk-000000?style=flat-square&logo=splunk&logoColor=white)
+![VirusTotal](https://img.shields.io/badge/VirusTotal-394EFF?style=flat-square&logo=virustotal&logoColor=white)
+
+| Tool                          | Usage                                              |
+| ----------------------------- | -------------------------------------------------- |
+| **Wireshark & tcpdump** | Network packet analysis and traffic inspection     |
+| **Suricata**            | Writing custom IDS rules and analyzing alerts      |
+| **Wazuh**               | SIEM operations, log analysis, and alert hunting   |
+| **VirusTotal**          | Malware behavior analysis and MITRE ATT&CK mapping |
+| **Google Chronicle**    | Cloud-native SIEM querying and investigation       |
+| **Linux CLI**           | Security operations and system administration      |
+| **Python**              | Scripting and automation for security tasks        |
+| **SQL**                 | Querying and filtering security logs               |
+
+---
+
+## Lab Highlights
+
+### Network Traffic Analysis — Wireshark & tcpdump
+
+Captured and analyzed live network traffic, inspected TCP handshakes, filtered DNS queries, and identified anomalies in packet captures.
+
+### Intrusion Detection — Suricata
+
+Wrote and tested custom IDS rules against PCAP files, analyzed generated logs including `eve.json`, `fast.log`, and `suricata.log`.
+
+### SIEM Operations — Wazuh
+
+Performed alert hunting and log analysis in the Wazuh dashboard, investigated security events mapped to MITRE ATT&CK tactics including Privilege Escalation, Defense Evasion, and Initial Access.
+
+### Malware Analysis — VirusTotal
+
+Analyzed suspicious executables using VirusTotal sandbox detections, reviewed MITRE ATT&CK technique mappings, and assessed behavioral indicators across multiple sandboxes.
+
+---
+
+## Program Courses
+
+| # | Course                                                       | Key Topics                                                       |
+| - | ------------------------------------------------------------ | ---------------------------------------------------------------- |
+| 1 | **Foundations of Cybersecurity**                       | CIA Triad, security profession, entry-level roles                |
+| 2 | **Play It Safe: Manage Security Risks**                | NIST CSF, frameworks, controls, risk management                  |
+| 3 | **Connect and Protect: Networks and Network Security** | Network architecture, vulnerabilities, security monitoring       |
+| 4 | **Tools of the Trade: Linux and SQL**                  | Linux CLI, SQL queries for security operations                   |
+| 5 | **Assets, Threats, and Vulnerabilities**               | Asset protection, threat actor mindset, vulnerability management |
+| 6 | **Sound the Alarm: Detection and Response**            | Incident response lifecycle, threat detection, SIEM              |
+| 7 | **Automate Cybersecurity Tasks with Python**           | Python scripting, automation for security workflows              |
+| 8 | **Put It to Work: Prepare for Cybersecurity Jobs**     | Alert escalation, stakeholder communication, job preparation     |
+| 9 | **Accelerate Your Job Search with AI**                 | AI-powered job search, resume building, interview prep           |
+
+---
+
+## Portfolio
+
+All hands-on labs and exercises are organized by course in their respective folders. Each folder contains documented activities demonstrating practical skills across:
+
+- Security frameworks and risk management (NIST CSF, OWASP)
+- Network traffic analysis and intrusion detection
+- SIEM operations and alert investigation
+- Malware analysis and threat intelligence
+- Python automation scripts for security tasks
+- Incident response documentation
+
+---
+
+## Connect
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Islam%20Ahmed-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/your-profile)
+[![GitHub](https://img.shields.io/badge/GitHub-IlamHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/IlamHub)
+
+> Currently pursuing **SOC Analyst Tier 1** as a first role, with a long-term path into **Cloud Security on AWS and Azure**.
